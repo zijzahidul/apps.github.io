@@ -1,0 +1,158 @@
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	button:focus {
+		outline: 0;
+	}
+	header {
+		padding: 0 20px;
+	}
+	.navbar-brand img {
+		width: 120px;
+	}
+	.menu_fix {
+		padding: 15px 15px;
+	}
+	header .navbar-nav .nav-item .nav-link {
+		line-height: 40px;
+		text-align: center;
+	}
+
+	/*Banner part Start*/
+	#banner_part {
+		padding-top: 160px;
+		padding-bottom: 50px;
+	}
+	.banner_text h3 {
+		font-size: 32px;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+	.banner_text h2 {
+		font-size: 48px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.banner_text p {
+		text-align: justify;
+		padding: 0 30px;
+	}
+	.btn_one {
+		padding-top: 100px;
+		text-align: center;
+	}
+	.banner_img img {
+		top: -260px;
+		left: 0;
+	}
+	.btn_one a {
+		background-image: linear-gradient(to left, #316764, #57bab6);
+		color: #c4d9d8;
+	}
+
+	/*Banner Part End*/
+
+	/*Feture Part Start*/
+	#fetures_part {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.fetures_left {
+		margin-top: 50px;
+	}
+	.fetures_right {
+		margin-top: 50px;
+	}
+
+	/*Feture Part End*/
+
+	/*My Work Start*/
+	.mywork_head {
+		margin-bottom: 25px;
+	}
+	/*My Work End*/
+
+	/*About Part Start*/
+	#about_part {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.about_left img {
+		width: 150px !important;
+		margin: 0 110px;
+	}
+	.about_right h2 {
+		padding-top: 50px;
+		text-align: center;
+		margin: 0 15px;
+		font-size: 24px;
+		font-weight: 500;
+	}
+	.about_right p {
+		padding-bottom: 30px;
+		text-align: justify;
+		margin: 0 30px;
+		padding-top: 30px;
+	}
+	.aobut_right h3 {
+		text-align: center;
+	}
+	.btn_btn {
+		padding-top: 15px;
+	}
+	/*About Part End*/
+
+	/*Faq Part Start*/
+	.faq_head h2 {
+		margin-top: 30px;
+	}
+	/*Faq Part End*/
+
+	/*Video Part Start*/
+	.video_text h3 {
+		text-align: center;
+	}
+	.video_text p {
+		text-align: justify;
+		margin: 0 30px;
+	}
+	/*Video Part End*/
+
+	/*Team Part Start*/
+	.team_main {
+		transform: scale(0.5);
+	}
+	.team_main:hover {
+		transform: scale(.7);
+	}
+	/*Team Part End*/
+
+	/*Price Part Start*/
+	.price_main {
+		margin: 0 30px 25px;
+	}
+	/*Price Part End*/
+
+	/*Footer Part Start*/
+	.btn_two a {
+		margin-top: 10px;
+	}
+	.footer_head h3 {
+		padding-bottom: 15px;
+		font-size: 24px;
+	}
+	/*Footer Part End*/
+
+
+}
